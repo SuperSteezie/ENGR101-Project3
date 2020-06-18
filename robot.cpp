@@ -30,7 +30,7 @@ int horizontalPixel(){
 }
 
 /**
- * Right side pixel function
+ * Right side pixel function 
  * Takes data from camera image and builds a 1D array of the pixel values on a line
  * The line is on the right side of the image, used to tell the robot when to turn right when there is a sharp turn
  */
