@@ -24,9 +24,9 @@
 > LFLAGS = -L ${DIR}\lib <br/>
 > LIBS = -lsfml-window  -lsfml-graphics -lsfml-system -lsfml-network <br/>
 > **robot**: **robot**.o <br/>
-> > g++ $(LFLAGS) -o **robot** **robot**.o ${LIBS} <br/>
+> g++ $(LFLAGS) -o **robot** **robot**.o ${LIBS} <br/>
 > **robot**.o: **robot**.cpp <br/>
-> > g++  -c $(CFLAGS) **robot**.cpp<br/>
+> g++  -c $(CFLAGS) **robot**.cpp<br/>
 3)	To change name of files, edit everything in bold above to whatever name you desire (need to also change .cpp file name if so). Then edit path (in italic above) to whichever path you extracted SFML to. 
     -	For example, for the makefile of the server, need to change everything in bold to ‘server3’ because that is what the .cpp file is called.
 4)	Cut and paste robot.cpp into *Team 13 AVC_Robot*.
