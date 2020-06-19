@@ -5,15 +5,15 @@
 2)	Ensure that SFML version installed is the same as the compiler. Meaning that if 64 bit MinGW compiler is used then download 64 bit SFML 2.5.1.
     -	To check Geany compiler version type ‘g++ --version’ into command prompt. If there is no result then download MinGW compiler via the same SFML site. 
     -	If compiler version is not **x86_64-posix-seh-rev0**, for when 64-bit version of SFML was downloaded then redownload the correct version by clicking the MinGW Builds 7.3.0(64-Bit) on the same SFML site. Or, download the 32-bit version of SFML. In summary:
-        o	If 32-bit wanted use: **GCC 7.3.0 MinGW (DW2) - 32-bit** SFML and **i686-7.3.0-release-posix-dwarf-rt_v5-rev0** compiler.
-        o	If 64-bit wanted use: **GCC 7.3.0 MinGW (SEH) - 64-bit** SFML and **x86_64-posix-seh-rev0** compiler.
+    	- If 32-bit wanted use: **GCC 7.3.0 MinGW (DW2) - 32-bit** SFML and **i686-7.3.0-release-posix-dwarf-rt_v5-rev0** compiler.
+	- If 64-bit wanted use: **GCC 7.3.0 MinGW (SEH) - 64-bit** SFML and **x86_64-posix-seh-rev0** compiler.
     -	Ensure compiler is added as new Environment Path Variable if MinGW compiler was changed or implemented. To add as new Environmental Path:
-        o	Find extracted folder of compiler.
-        o	Navigate to mingw64/bin.
-        o	Copy address/file path.
-        o	Type ‘environment variable’ into Windows search.
-        o	Under **Advanced**, go to **Environment Variables** -> click **Path** (under User variables) -> click **Edit** button -> **New** -> then paste copied address.
-        o	Restart PC.
+    	- Find extracted folder of compiler.
+	- Navigate to mingw64/bin.
+	- Copy address/file path.
+	- Type ‘environment variable’ into Windows search.
+	- Under **Advanced**, go to **Environment Variables** -> click **Path** (under User variables) -> click **Edit** button -> **New** -> then paste copied address.
+	- Restart PC.
 3)	Unzip/extract SFML folder anywhere.
 
 ## Running The Program
