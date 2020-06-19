@@ -19,14 +19,14 @@
 ## Running The Program
 1)  Download zip of repository in https://github.com/SuperSteezie/ENGR101-Project3-Team13 by clicking the **Clone or download** button and downloading as zip.
 2)  Create new file named ‘makefile’ via Geany in both *Team 13 AVC_Robot* and *Team 13 AVC_Server* folders. Copy paste indented below into makefile either via Text Editor or Geany.  (There should be an indent before every **g++** !)<br/>
-    DIR = *C:\SFML-2.5.1*<br/>
-    CFLAGS = -I ${DIR}\include <br/>
-    LFLAGS = -L ${DIR}\lib <br/>
-    LIBS = -lsfml-window  -lsfml-graphics -lsfml-system -lsfml-network <br/>
-    **robot**: **robot**.o <br/>
-        g++ $(LFLAGS) -o **robot** **robot**.o ${LIBS} <br/>
-    **robot**.o: **robot**.cpp <br/>
-        g++  -c $(CFLAGS) **robot**.cpp<br/>
+> DIR = *C:\SFML-2.5.1*<br/>
+> CFLAGS = -I ${DIR}\include <br/>
+> LFLAGS = -L ${DIR}\lib <br/>
+> LIBS = -lsfml-window  -lsfml-graphics -lsfml-system -lsfml-network <br/>
+> **robot**: **robot**.o <br/>
+> > g++ $(LFLAGS) -o **robot** **robot**.o ${LIBS} <br/>
+> **robot**.o: **robot**.cpp <br/>
+> > g++  -c $(CFLAGS) **robot**.cpp<br/>
 3)	To change name of files, edit everything in bold above to whatever name you desire (need to also change .cpp file name if so). Then edit path (in italic above) to whichever path you extracted SFML to. 
     -	For example, for the makefile of the server, need to change everything in bold to ‘server3’ because that is what the .cpp file is called.
 4)	Cut and paste robot.cpp into *Team 13 AVC_Robot*.
